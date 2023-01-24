@@ -5,7 +5,7 @@ public class Main {
         int replenishment = 700;
         int bonus = replenishment / bonusEvery;
 
-        if (replenishment < 100) {
+        if (replenishment < 1000) {
             bonus = 0;
         }
         int finalAmount = amountLeft + replenishment + bonus;
